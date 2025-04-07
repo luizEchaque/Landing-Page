@@ -110,7 +110,7 @@ p {
     text-align: center;
 }
 
-.action {
+.action-section {
     display: flex;
     justify-content: center;
     padding: 20px; 
@@ -141,7 +141,7 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    height: 40vh;   
+    height: 40vh; 
     padding: 20px;
 }
 
@@ -150,7 +150,6 @@ p {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    
 }
 
 .author {
@@ -169,4 +168,49 @@ p {
 
 p.footer {
     color: #f9faf8;
+}
+
+.call-to-action {
+    background-color: #f9faf8;
+    height: 40vh;   
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.action-container {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #3882f6;
+    height: 50%;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.action-text {
+    flex-direction: column;
+    color: #f9faf8;
+
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.action-subtitle {
+    font-size: 18px;
+}
+
+.action-button {
+    background-color: #3882f6;
+    border: solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #f9faf8;
+    width: 150px;
+    height: 40px;
 }
